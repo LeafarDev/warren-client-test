@@ -31,6 +31,9 @@ export const ButtonTransaction = styled(Button)`
       width: 100%;
       margin: 1px;
     }
+    :hover {
+      background-color: #c7376d;;
+    }
   }
 `;
 

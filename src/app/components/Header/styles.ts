@@ -17,5 +17,8 @@ export const LogoutButton = styled(Button)`
   && {
     background-color: #e61b5d;
     color: white;
+    :hover {
+      background-color: #c7376d;;
+    }
   }
 `;
