@@ -6,5 +6,5 @@ interface userTotalInboundYieldResponse {
 }
 
 export async function fetchUserTotalInboundYield(): Promise<userTotalInboundYieldResponse> {
-  return await api.get(`http://localhost:3333/api/inbounds/yields/total`);
+  return await api.get(`/inbounds/yields/total`);
 }

@@ -6,5 +6,5 @@ interface UserResponse {
 }
 
 export async function fetchUser(): Promise<UserResponse> {
-  return await api.get(`http://localhost:3333/api/users/me`);
+  return await api.get(`/users/me`);
 }

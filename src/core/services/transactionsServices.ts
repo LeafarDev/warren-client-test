@@ -10,9 +10,9 @@ interface transactionResponse {
 }
 
 export async function fetchTransactions(): Promise<transactionsResponse> {
-  return await api.get(`http://localhost:3333/api/transactions`);
+  return await api.get(`/transactions`);
 }
 
 export async function saveTransaction(data: ITransaction): Promise<transactionResponse> {
-  return await api.post(`http://localhost:3333/api/transactions`, data);
+  return await api.post(`/transactions`, data);
 }
