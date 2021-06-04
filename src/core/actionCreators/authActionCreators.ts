@@ -11,19 +11,19 @@ export function login(
   };
 }
 
-export function logout(): actions.logoutAction {
+export function logout(): actions.LogoutAction {
   return {
     type: actions.LOGOUT
   };
 }
 
-export function reset(): actions.resetAction {
+export function reset(): actions.ResetAction {
   return {
     type: actions.RESET
   };
 }
 
-export function loginRequest(): actions.loginRequestAction {
+export function loginRequest(): actions.LoginRequestAction {
   return {
     type: actions.LOGIN_REQUEST
   };
@@ -31,7 +31,7 @@ export function loginRequest(): actions.loginRequestAction {
 
 export function loginSuccess(
   token: string
-): actions.loginSuccessAction {
+): actions.LoginSuccessAction {
   return {
     type: actions.LOGIN_SUCCESS,
     token
@@ -40,7 +40,7 @@ export function loginSuccess(
 
 export function loginFailure(
   error: Error | string
-): actions.loginFailureAction {
+): actions.LoginFailureAction {
   return {
     type: actions.LOGIN_FAILURE,
     error

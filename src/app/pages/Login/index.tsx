@@ -14,9 +14,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { AppState } from '../../../core/reducers/rootReducer';
 import * as actionTypes from '../../../core/actionTypes/authActionsTypes';
 
-export default function SignIn() {
+export default function Login() {
   const dispatch = useDispatch();
-  const token = useSelector((state: AppState) => state.auth.token);
   const isLoading = useSelector((state: AppState) => state.isLoading[actionTypes.LOGIN]);
   const formik = useFormik({
     validationSchema: schema,
@@ -48,6 +47,7 @@ export default function SignIn() {
             id="email"
             label="Email Address"
             name="email"
+            inputProps={{ 'data-testid': 'email' }}
             autoComplete="email"
             onChange={formik.handleChange}
             value={formik.values.email}
@@ -63,6 +63,7 @@ export default function SignIn() {
             required
             fullWidth
             name="password"
+            inputProps={{ 'data-testid': 'password' }}
             label="Password"
             type="password"
             id="password"
@@ -75,6 +76,7 @@ export default function SignIn() {
             autoComplete="current-password"
           />
           <ButtonSubmit
+            name="loginButton"
             fullWidth
             variant="contained"
             color="primary"

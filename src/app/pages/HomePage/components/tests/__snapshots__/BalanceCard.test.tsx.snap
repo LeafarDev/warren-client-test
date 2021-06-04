@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BalanceCard /> should render and match the snapshot 1`] = `
+<div
+  class="MuiGrid-root sc-bdnxRM jjVypx MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+>
+  <div
+    class="MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+      >
+        <div
+          class="MuiCardContent-root"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-1"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+            >
+              Testing BalanceCard
+            </p>
+            <h2
+              class="MuiTypography-root MuiTypography-h4"
+            >
+              $500.00
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

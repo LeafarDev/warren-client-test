@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionsList /> should render and match the snapshot 1`] = `
+<div
+  aria-level="1"
+  class="sc-fnVZcZ cDmETx rdt_TableHeader"
+  role="heading"
+>
+  <div
+    class="sc-fFSPTT fgINsU"
+  >
+    Transactions
+  </div>
+  <div
+    class="sc-bkbkJK ffLupP"
+  />
+  <div
+    class="sc-hBMUJo fzmYSh"
+  >
+    <div
+      class="sc-bqGGPW diFtgj"
+    />
+    <div
+      class="sc-ksluID efFzQL"
+    />
+  </div>
+</div>
+`;

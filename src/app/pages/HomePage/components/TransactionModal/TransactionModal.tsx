@@ -105,6 +105,7 @@ export const TransactionModal: React.FC<Props> = props => {
                         label="Destination Account"
                         name="targetAccountNumber"
                         variant="outlined"
+                        data-testid="targetAccountNumber"
                         size="small"
                         fullWidth
                         onChange={formik.handleChange}

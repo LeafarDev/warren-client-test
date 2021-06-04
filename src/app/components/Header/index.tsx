@@ -19,7 +19,7 @@ export function Header(): JSX.Element {
             Bank of Mars
           </Typography>
           <div>
-            <LogoutButton variant="contained" onClick={() => onLogout()}>
+            <LogoutButton name={'logout'} variant="contained" onClick={() => onLogout()}>
               Logout
             </LogoutButton>
           </div>

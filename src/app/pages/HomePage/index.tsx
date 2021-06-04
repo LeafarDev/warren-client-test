@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Grid, Typography } from '@material-ui/core';
-import { WelcomeGrid } from './styles';
+import { Grid } from '@material-ui/core';
 import { AppState } from '../../../core/reducers/rootReducer';
 import {
   currentCreatingTransaction,
@@ -15,6 +14,7 @@ import { TransactionButtonGroup } from './components/TransactionButtonGroup';
 import { TransactionModal } from './components/TransactionModal/TransactionModal';
 import { TransactionsList } from './components/TransactionsList';
 import { LoadingUserData } from './components/LoadingUserData';
+import { WelcomeText } from './components/WelcomeText';
 
 function HomePage(): JSX.Element {
 
@@ -57,10 +57,7 @@ function HomePage(): JSX.Element {
 
       {user.account.accountNumber && (
         <Grid container direction={'row'} alignItems={'center'}>
-          <WelcomeGrid item xs={12}>
-            <Typography
-              variant="h5"> {`Welcome ${user.name} ! Account: ${user.account.accountNumber}`} </Typography>
-          </WelcomeGrid>
+          <WelcomeText user={user}/>
           <BalanceCard amount={user.account.balance} title={'Balance'}/>
           <BalanceCard amount={userTotalInboundYield.total} title={'Total Inbound Yields'}/>
           <TransactionButtonGroup openTransactionModal={openTransactionModal}/>

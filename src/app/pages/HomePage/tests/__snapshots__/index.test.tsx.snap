@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Index /> should render and match the snapshot 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+  >
+    <div
+      class="MuiGrid-root sc-gtsrHT jtaqrK MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-h5"
+      >
+         
+        Welcome Charles Marciano ! Account: 12345678
+         
+      </h5>
+    </div>
+    <div
+      class="MuiGrid-root sc-bdnxRM jjVypx MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+    >
+      <div
+        class="MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root MuiBox-root-1"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+                >
+                  Balance
+                </p>
+                <h2
+                  class="MuiTypography-root MuiTypography-h4"
+                >
+                  $0.00
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root sc-bdnxRM jjVypx MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+    >
+      <div
+        class="MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root MuiBox-root-2"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+                >
+                  Total Inbound Yields
+                </p>
+                <h2
+                  class="MuiTypography-root MuiTypography-h4"
+                >
+                  $0.00
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6"
+    >
+      <div
+        class="MuiGrid-root sc-dlnjwi hiknWI MuiGrid-container MuiGrid-align-items-xs-flex-end"
+      >
+        <div
+          class="MuiGrid-root sc-hKFxyN kDxxfH MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-eCApnc iPgxUa"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              New Deposit
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <div
+          class="MuiGrid-root sc-hKFxyN kDxxfH MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-eCApnc iPgxUa"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              New Withdraw
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <div
+          class="MuiGrid-root sc-hKFxyN kDxxfH MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-eCApnc iPgxUa"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              New Payment
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div />
+    </div>
+    <div
+      aria-level="1"
+      class="sc-dlMDgC ebNduJ rdt_TableHeader"
+      role="heading"
+    >
+      <div
+        class="sc-kfYoZR gZoAjc"
+      >
+        Transactions
+      </div>
+      <div
+        class="sc-fKgJPI bwRsIf"
+      />
+      <div
+        class="sc-hHEiqL fHFuub"
+      >
+        <div
+          class="sc-iemWCZ hhKMUs"
+        />
+        <div
+          class="sc-dIvrsQ cwqApU"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-cxNHIi iHCczq"
+    >
+      <div
+        class="sc-iJCRrE jERoqz"
+      >
+        <div
+          class="sc-gKAaRy biSZCX rdt_Table"
+          role="table"
+        >
+          <div
+            class="sc-ezzafa icgsDD"
+          >
+            <div
+              style="padding: 24px;"
+            >
+              There are no records to display
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

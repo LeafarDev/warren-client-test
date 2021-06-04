@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionButtonGroup /> should render and match the snapshot 1`] = `
+<div
+  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6"
+>
+  <div
+    class="MuiGrid-root sc-dlnjwi hiknWI MuiGrid-container MuiGrid-align-items-xs-flex-end"
+  >
+    <div
+      class="MuiGrid-root sc-hKFxyN kDxxfH MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-eCApnc iPgxUa"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          New Deposit
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiGrid-root sc-hKFxyN kDxxfH MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-eCApnc iPgxUa"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          New Withdraw
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiGrid-root sc-hKFxyN kDxxfH MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-eCApnc iPgxUa"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          New Payment
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

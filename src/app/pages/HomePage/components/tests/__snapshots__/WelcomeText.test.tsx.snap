@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WelcomeText /> should render and match the snapshot 1`] = `
+<div
+  class="MuiGrid-root sc-gtsrHT jtaqrK MuiGrid-item MuiGrid-grid-xs-12"
+>
+  <h5
+    class="MuiTypography-root MuiTypography-h5"
+  >
+     
+    Welcome Charles Marciano ! Account: 12345678
+     
+  </h5>
+</div>
+`;

@@ -8,40 +8,40 @@ export interface LoginAction {
 
 export const LOGOUT = 'authActionTypes/LOGOUT';
 
-export interface logoutAction {
+export interface LogoutAction {
   type: typeof LOGOUT
 }
 
 export const RESET = 'authActionTypes/RESET';
 
-export interface resetAction {
+export interface ResetAction {
   type: typeof RESET
 }
 
 export const LOGIN_REQUEST = 'authActionTypes/LOGIN_REQUEST';
 
-export interface loginRequestAction {
+export interface LoginRequestAction {
   type: typeof LOGIN_REQUEST;
 }
 
 export const LOGIN_SUCCESS = 'authActionTypes/LOGIN_SUCCESS';
 
-export interface loginSuccessAction {
+export interface LoginSuccessAction {
   type: typeof LOGIN_SUCCESS;
   token: string;
 }
 
 export const LOGIN_FAILURE = 'authActionTypes/LOGIN_FAILURE';
 
-export interface loginFailureAction {
+export interface LoginFailureAction {
   type: typeof LOGIN_FAILURE;
   error: Error | string;
 }
 
 export type AuthAction =
-  | resetAction
-  | logoutAction
-  | loginRequestAction
-  | loginFailureAction
+  | ResetAction
+  | LogoutAction
+  | LoginRequestAction
+  | LoginFailureAction
   | LoginAction
-  | loginSuccessAction;
+  | LoginSuccessAction;
